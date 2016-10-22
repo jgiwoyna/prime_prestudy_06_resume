@@ -1,0 +1,64 @@
+resume {
+	border: 2px #000 solid;
+	margin: 50px;
+	padding: 30px;
+	width: 850px;
+	background: linear-gradient(to bottom, gray, #aa9811);
+	font-family: Helvetica, Arial;
+}
+header {
+	text-align: center;
+}
+
+
+h1, h2, h3, { margin: 0; }
+h1 {
+	font-size: 24pt;
+	line-height: 20pt;
+	margin:10px 0 0 0;
+}
+h2 {
+	font-size: 16pt;
+	line-height: 14pt;
+}
+
+h3 {
+	font-size: 12pt;
+	line-height: 14pt;
+}
+p {
+	margin: 0 0 0 20px;
+	text-indent: 0;
+	font-size: 10pt;
+	line-height: 14pt;
+}
+ul li {
+	font-size: 10pt;
+	line-height: 14pt;
+	list-style-type: square;
+	list-style-position: outside;
+	margin-top: 0;
+	margin-bottom:0;
+}
+body, #button p {
+	margin: 0 auto;
+}
+
+h1, h2, #button {
+	margin: auto;
+}
+
+#button {
+	background-color: #aa4411;
+	width: 300px;
+	border-radius: 5px;
+	display: block;
+}
+
+#button p{
+	text-align: center;
+	padding: 5px;
+}
+#resume {
+	display: none;
+}
